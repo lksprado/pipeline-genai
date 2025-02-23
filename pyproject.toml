@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pipeline-genai"
+version = "0.1.0"
+description = ""
+authors = ["lksprado <lks-prado@live.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.42.2"
+pydantic = {extras = ["email"], version = "^2.10.6"}
+psycopg2-binary = "^2.9.10"
+python-dotenv = "^1.0.1"
+sqlalchemy = "^2.0.38"
+mkdocs = {extras = ["material"], version = "^1.6.1"}
+mkdocs-material = "^9.6.5"
+mkdocstrings = "^0.28.1"
+mkdocstrings-python = "^1.16.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
