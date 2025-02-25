@@ -1,0 +1,23 @@
+name: 'sales_dw'
+version: '1.0.0'
+config-version: 2
+
+profile: 'sales_dw'
+
+model-paths: ["sales_dw/models"]
+analysis-paths: ["sales_dw/analyses"]
+test-paths: ["sales_dw/tests"]
+seed-paths: ["sales_dw/seeds"]
+macro-paths: ["sales_dw/macros"]
+snapshot-paths: ["sales_dw/snapshots"]
+
+clean-targets:
+  - "sales_dw/target"
+  - "dbt_packages"
+
+models:
+  sales_dw:
+    bronze:
+    +materialized: view
+    silver:
+    +materialized: view

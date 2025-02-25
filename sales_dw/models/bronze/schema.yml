@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: dw_lcs
+    tables:
+      - name: sales
+
+models:
+  - name: bronze_sales
+    description: "A description of the bronze_sales model"

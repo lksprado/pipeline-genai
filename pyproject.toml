@@ -16,6 +16,10 @@ mkdocs = {extras = ["material"], version = "^1.6.1"}
 mkdocs-material = "^9.6.5"
 mkdocstrings = "^0.28.1"
 mkdocstrings-python = "^1.16.1"
+dbt = "^1.0.0.38.28"
+deps = "^0.2.3"
+dbt-core = "^1.9.2"
+dbt-postgres = "^1.9.0"
 
 
 [build-system]

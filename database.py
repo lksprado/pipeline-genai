@@ -37,6 +37,6 @@ def save_in_pg(data: Sales):
         conn.commit()
         cursor.close()
         conn.close()
-        st.success("Dados salvos com sucesso no banco de dados!")
+        st.success("Order saved succesfuly!")
     except Exception as e:
-        st.error(f"Erro ao salvar no banco de dados: {e}")
+        st.error(f"Error saving order: {e}")

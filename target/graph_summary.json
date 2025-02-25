@@ -1,0 +1,1 @@
+{"_invocation_id": "de768717-68fe-4eed-9a6d-f120cb730653", "linked": {"0": {"name": "source.sales_dw.dw_lcs.sales", "type": "source", "succ": [1]}, "1": {"name": "model.sales_dw.bronze_sales", "type": "model", "succ": [3]}, "2": {"name": "model.sales_dw.gold_sales", "type": "model"}, "3": {"name": "model.sales_dw.silver_sales", "type": "model", "succ": [2]}}}
