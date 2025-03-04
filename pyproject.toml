@@ -20,8 +20,20 @@ dbt = "^1.0.0.38.28"
 deps = "^0.2.3"
 dbt-core = "^1.9.2"
 dbt-postgres = "^1.9.0"
+groq = "^0.18.0"
+chromadb = "^0.6.3"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+[tool.taskipy.tasks]
+format = """
+isort . 
+black .
+"""
+kill = "kill -9 $(lsof -t -i :8000)"
+test = "pytest -v"
+run = """ python3 app/main.py """
+doc = "mkdocs serve"
+

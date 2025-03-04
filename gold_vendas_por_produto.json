@@ -1,0 +1,20 @@
+[
+    {
+        "product": "Luminae - Gemini",
+        "values": 4970.0,
+        "counts": 15,
+        "ticket_medio": 331.3333333333333
+    },
+    {
+        "product": "Luminae - chatGPT",
+        "values": 1103.0,
+        "counts": 7,
+        "ticket_medio": 157.57142857142858
+    },
+    {
+        "product": "Luminae - Llama3",
+        "values": 287.0,
+        "counts": 4,
+        "ticket_medio": 71.75
+    }
+]

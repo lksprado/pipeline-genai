@@ -7,4 +7,4 @@ bronze as (
 select 
 *
 from bronze t 
-where t.created_at >= current_date -7
+where t.created_at >= current_date -20
